@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+        <link rel="stylesheet" href="styles.css">
+        <!--BASIC INFO-->
+        <title>Valeria Cabello | UX Designer</title>
+        <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+        <meta name="author" content="Valeria Cabello">
+        <meta name="description" content="User experience designer in Phoenix, AZ with a passion for the environment and the arts.">
+        <meta name="keywords" content="ux, graphic designer, user experience designer, product designer, visual designer, front end developer, web developer, web designer">
+        <!--FONT AWESOME-->
+        <script src="https://kit.fontawesome.com/bce5e04692.js" crossorigin="anonymous"></script>
+        <!--FONT KIT-->
+        <script>
+          (function(d) {
+            var config = {
+              kitId: 'qrq5mna',
+              scriptTimeout: 3000,
+              async: true
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+          })(document);
+        </script>
+    </head>
+    <body>
+        <header>
+            <!--TOP SECTION-->
+            <div id="top">
+                <!--LOGO-->
+                <div id="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <div class="titleContainer">
+                        <a href="index.html"><h1>Valeria Cabello</h1></a>
+                        <p class="bold">UX Designer</p>
+                    </div>
+                </div>
+                <!--MOBILE HEADER-->
+                <input type="checkbox" id="check">
+                <label for="check">
+                    <i class="fas fa-bars" id="menu"></i>
+                    <i class="fas fa-times" id="cancel"></i>
+                </label>
+                <!--NAV-->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="assets/resume.pdf">Resume</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--BOTTOM SECTION-->
+            <div id="bottom">
+                <p class="bold">Let's Connect!</p>
+                <!--SOCIAL ICONS-->
+                <div id="socialIcons">
+                    <a href="mailto:valeriaccabello@gmail.com"><i class="fas fa-envelope-square fa-lg" alt="Email"></i></a>
+                    <a href="https://www.linkedin.com/in/valeriacabello/"><i class="fab fa-linkedin fa-lg" alt="LinkedIn"></i></a>
+                    <a href="https://twitter.com/valeriaccabello"><i class="fab fa-twitter-square fa-lg" alt="Twitter"></i></a>
+                    <a href="https://www.behance.net/valeriacabello"><i class="fab fa-behance-square fa-lg" alt="Behance"></i></a>
+                </div>
+            </div>
+        </header>
+        
+        <main id="wrapper">
+            <div class="projectPage">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbsItem"><a class="breadcrumbsLink" href="index.html">Work </a></li>
+                    <li class="breadcrumbsItem"><a class="breadcrumbsLink breadcrumbsActive" href="ihrasu-video-archive.html">Video Archive</a></li>
+                </ul>
+                <h2>Video Archive</h2>
+                <h3>Overview</h3>
+                <p>The Institute for Humanities Research (IHR) at ASU wanted to have a place where the community could find all recorded event videos. By reviewing competitor websites and thinking about research findings, we created a new web page that embeded the videos from the IHR’s YouTube channel and categorized them by year. The webpage also features the most prominent event at the top of the page and lists event playlists.</p>
+                <img alt="" src="images/IHR-videoArchive.jpg">
+                <br>
+                <br>
+                <h3>Process</h3>
+                <p>When I was assigned this project, I was given a web page from another department at ASU to reference for ideas on how to showcase an archive for event videos. That page was filled with text! Zero images were being used. The event videos were listed individually with links and details about each event. For my design, I wanted to avoid lengthy text because according to multiple research studies, people don't like to read. Pages should be scannable with breaks, images, etc.</p>
+                <div class="researchPoint">
+                    <p>Read more about this research point:</p>
+                    <p><a href="https://redish.net/books/letting-go-of-the-words/" target="_blank">Letting Go of the Words (2007) <i class="fas fa-external-link-alt"></i></a></p>
+                </div>
+                <p>I decided to create a design that is centered around showing video thumbnails of each event along with the title and date of the event. With this design, users would be able to quickly scan the page for what they're interested in and click on the thumbnail to play the video. For those who are just browsing, the thumbnails are more likely to catch their eye than simply using text.</p>
+                <div class="imageGrid">
+                    <img src="images/IHR-videoArchive-Sketch01.jpg" alt="Sketch 1">
+                    <img src="images/IHR-videoArchive-Sketch02.jpg" alt="Sketch 2">
+                    <img src="images/IHR-videoArchive-Sketch03.jpg" alt="Sketch 3">
+                </div>
+                <p>My final design features an embedded YouTube playlist at the top of the page followed by all the event videos categorized by year, then a list of embedded playlists. The featured playlist changes throughout the year to show the biggest event series that the IHR is hosting at the time. I also added a description for the playlist and a button that takes the user to the section where all the playlists live on the page.</p>
+                <img src="images/IHR-videoArchive-featuredPlaylist.png">
+                <p>The event videos themselves are organized in a grid under their corresponding year. I created this type of layout instead of displaying all the videos in one single gird to reduce page load time and for simplicity. The grid lets the user quickly scan through all of the videos available.</p>
+                <img src="images/IHR-videoArchive-allEventVideos-closed.png">
+                <p>Another great benefit of this layout is that when the user clicks on a year, that category opens, and if they choose to click on another year, the previous category closes and the new one opens. This keeps the focus on the chosen category to make it easier on the eyes and easier for scanning.</p>
+                <img src="images/IHR-videoArchive-allEventVideos-open.png">
+                <p>One problem I faced after the launch of the web page was slow load time, despite the design decisions I had made. I realized that it was because I had orignially embedded all of the videos onto the page. As we added more videos, the page became slower and slower. To fix this, I switched out the embedded videos for thumbnail photos. I also made sure that the user would be taken to the video if they were to click on the image. The title of the video is also a link to the video.</p>
+                <p class="bold">Before:</p>
+                <img src="images/IHR-videoArchive-allEventVideos-old.png">
+                <p>The playlists section hosts embedded YouTube playlists from the IHR's channel. This is where the button in the featured playlist section takes the user.</p>
+                <img src="images/IHR-videoArchive-playlists.png">
+                <p>I created the web page using Drupal, ASU's CMS. I made sure to follow branding guidelines and added a hero image that was consistent with those on other pages of the IHR's website. You may view the live page on <a href="https://ihr.asu.edu/events/video-archive" target="_blank">ihr.asu.edu/events/video-archive <i class="fas fa-external-link-alt"></i></a>.</p>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2021 Valeria Cabello. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
